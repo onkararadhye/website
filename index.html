@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body bgcolor="white">
+    <nav id="desktop-nav">
+      <div class="logo">Onkar Aradhye</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+        
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Onkar Aradhye</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+         
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile.jpg" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Onkar Aradhye</h1>
+        <p class="section__text__p2">🔒 Cybersecurity Enthusiast | 📱 Aspiring App Developer | 🎮 Aspiring Game Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Onkar_Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='mailto:onk'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='www.linkedin.com/in/onkararadhye'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/onkararadhye'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <!img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+          
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p align="center">Pursuing B.Tech Computer Engineering at</p>
+              <p>St John College of Engineering and Management,Palghar<br /></p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p align="center">
+              🚀 Android Developer | 🔐 Cybersecurity Enthusiast | 🌐 Website Penetration Tester <br>
+              🎓 Student at St. John College of Engineering and Technology <br>
+              💡 Passionate about learning and building innovative solutions <br>
+              ☕ Lifelong Learner
+            </p>
+          </div>
+        </div>
+      </div>
+     
+    <h3 align="center">🛠️ Languages & Tools 🛠️</h3>
+    <br>
+    <br>
+    <br>
+<p align="center">
+  <img src="https://img.shields.io/badge/Code-Kotlin-informational?style=for-the-badge&logo=kotlin&color=7F52FF" />
+  <img src="https://img.shields.io/badge/Code-Java-informational?style=for-the-badge&logo=java&color=007396" />
+  <img src="https://img.shields.io/badge/Code-C++-informational?style=for-the-badge&logo=cplusplus&color=00599C" />
+  <img src="https://img.shields.io/badge/Code-Python-informational?style=for-the-badge&logo=python&color=3776AB" />
+  <img src="https://img.shields.io/badge/Code-C-informational?style=for-the-badge&logo=c&color=A8B9CC" />
+  <img src="https://img.shields.io/badge/Tools-Android_Studio-informational?style=for-the-badge&logo=android-studio&color=3DDC84" />
+  <img src="https://img.shields.io/badge/Tools-Burp_Suite-informational?style=for-the-badge&logo=burp-suite&color=FF7139" />
+  <img src="https://img.shields.io/badge/Tools-Penetration_Testing-informational?style=for-the-badge&logo=owasp&color=FF0000" />
+</p><br>
+    
+    </section>
+    <section id="projects">
+      <h3 align="center">🚀 My Projects 🚀</h3>
+<p align="center">
+  <br>
+  <br>
+  <br>
+  <a href="https://github.com/onkararadhye/loginappusingandroistudio_firebase">
+    <img src="https://img.shields.io/badge/-Android_Security_App-blue?style=for-the-badge" alt="Jan Seva">
+    <img src="">
+  </a>
+  <a href="https://github.com/yourusername/cybersecurity-toolkit">
+    <img src="https://img.shields.io/badge/-Dungeons_Dash-green?style=for-the-badge" alt="Dungeons Dash">
+    <img src=""
+  </a>
+  <a href="https://github.com/yourusername/cybersecurity-toolkit">
+    <img src="https://img.shields.io/badge/-Login_App_Using_Firebase-blue?style=for-the-badge" alt="Login App Using Firebase">
+    <img src=""
+  </a>
+</p>
+
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:onkararadhye01@gmail.com">onkararadhye@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/onkararadhye">LinkedIn/onkararadhye</a></p>
+          <div class="contact-info-container">
+            <img
+              src="./assets/github.png"
+              alt="Github icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.github.com/onkararadhye">LinkedIn/onkararadhye</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+          
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Onkar Aradhye. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
